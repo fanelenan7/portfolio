@@ -1,0 +1,143 @@
+body {
+  height: 100vh;
+  font-family: 'Josefin Sans', sans-serif;
+  display: flex;
+  color: #fff;
+}
+
+.description {
+  width: 200px;
+}
+
+.projectDesc {
+  margin: 0;
+  padding: 0;
+}
+
+.desc {
+  font-size: 0.7em;
+}
+
+li {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all .07s ease;
+}
+
+.section:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 3rem #000;
+}
+
+.portrait {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.left {
+  display: flex;
+  background-color: #ff0000;
+  height: 100%;
+  flex-grow: 2;
+  flex-direction: column;
+}
+
+.mid {
+  display: flex;
+  background-color: #ffff00;
+  height: 100%;
+  flex-grow: 1.5;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  background-color: #0000ff;
+  height: 100%;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.about {
+  background-color: #C463FF;
+  height: 100%;
+  flex: 2;
+}
+
+.skills {
+  background-color: #0080FF;
+  height: 100%;
+  flex: 3;
+}
+
+.projects {
+  background-color: #FFA500;
+  height: 100%;
+  flex: 2;
+}
+
+.github {
+  background-color: #171517;
+  color: #fff;
+  height: 100%;
+  flex: 1;
+}
+
+.other {
+  background-color: #01DF3A;
+  height: 100%;
+  flex: 1;
+}
+
+.social {
+  background-color: #FF0080;
+  height: 100%;
+  flex: 1;
+}
+
+h3 {
+  width: 50%;
+  margin 0 auto;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  display: inline;
+  /*margin: 5px;*/
+  text-decoration: none;
+  color: #fff;
+  cursor: default;
+}
+
+a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#linkedin {
+  width: 50px;
+  height: 50px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 5%;
+}

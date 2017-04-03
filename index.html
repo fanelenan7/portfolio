@@ -3,40 +3,49 @@
   <head>
     <meta charset="utf-8">
     <title>Lena Santana</title>
-    <link rel="stylesheet" type="text/css" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </head>
   <body>
-    <header>
-      <nav>
-        <box id="about"><a href ='#'>About</a></box>
-        <box id="portfolio"><a href ='#'>Portfolio</a></box>
-        <box id="experience"><a href ='#'>Experience</a></box>
-      </nav>
-    </header>
-    <main>
-      <h1>Lena Santana</h1>
-      <h3>Apprentice Web Developer</h3>
-      <container>
-        <photo></photo>
-        <p>Master cleanse austin vaporware portland, 3 wolf moon umami ramps kombucha freegan glossier marfa +1 tilde. Schlitz keytar before they sold out ethical cardigan. Occupy raw denim selvage blue bottle. Yuccie forage gochujang irony sartorial mixtape. Subway tile waistcoat cliche fanny pack plaid.</p>
-        <p>Bushwick coloring book art party, man braid skateboard green juice edison bulb church-key stumptown sartorial vape tilde squid. Etsy pour-over shoreditch 90's, 8-bit flexitarian subway tile lomo glossier forage bushwick cred fanny pack mumblecore.</p>
-        <p>8-bit vape hexagon, hashtag lomo banh mi small batch humblebrag try-hard godard literally butcher. Beard tilde before they sold out, polaroid cornhole quinoa marfa chia gluten-free succulents lyft.</p>
-      </container>
-      <footer>
-        <a href="#">
-          <img src="style/github.png" alt="GitHub">
-        </a>
-        <a href="#">
-          <img src="style/linkedin.png" alt="LinkedIn">
-        </a>
-        <a href="#">
-          <img src="style/twitter.png" alt="Twitter">
-        </a>
-        <a href="#">
-          <img src="style/email.png" alt="Email">
-        </a>
-      </footer>
-    </main>
+
+      <div class="left">
+        <div class="about section">
+          <img src="img/ls.png">
+          <h3>About</h3>
+        </div>
+        <div class="other section">
+          <img src="img/brush.png">
+          <h3>Other Skills</h3>
+        </div>
+      </div>
+
+      <div class="mid">
+        <div class="github section">
+          <img src="img/gh.png">
+          <h3>GitHub</h3>
+        </div>
+        <div class="projects section">
+          <img src="img/star.png">
+          <h3>Projects</h3>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="skills section">
+          <img src="img/brackets.png">
+          <h3>Skills</h3>
+        </div>
+        <div class="social section">
+          <img src="img/linkedin2.png" id="linkedin">
+          <h3>Contact Me</h3>
+        </div>
+      </div>
+
   </body>
 </html>
