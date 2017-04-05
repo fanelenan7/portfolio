@@ -5,8 +5,20 @@ body {
   color: #fff;
 }
 
+.pulse {
+  animation: fadein 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes fadein {
+  0% {opacity: 1}
+  50% {opacity: 0}
+  100% {opacity: 1}
+}
+
 .description {
-  width: 200px;
+  width: 210px;
 }
 
 .projectDesc {
@@ -72,7 +84,8 @@ h3 {
 }
 
 .about {
-  background-color: #C463FF;
+  background-color: #FFA500;
+  /*background-color: #b760e6;*/
   height: 100%;
   flex: 2;
 }
@@ -84,7 +97,7 @@ h3 {
 }
 
 .projects {
-  background-color: #FFA500;
+  background-color: #b760e6;
   height: 100%;
   flex: 2;
 }
@@ -97,15 +110,20 @@ h3 {
 }
 
 .other {
-  background-color: #01DF3A;
+  background-color: #ff5c5c;
+  /*background-color: #01DF3A;*/
   height: 100%;
   flex: 1;
 }
 
 .social {
-  background-color: #FF0080;
+  background-color: #65CF9B;
   height: 100%;
   flex: 1;
+}
+
+.gh {
+  text-align: left;
 }
 
 h3 {
@@ -119,17 +137,13 @@ a {
   display: inline;
   /*margin: 5px;*/
   text-decoration: none;
-  color: #fff;
-  cursor: default;
-}
-
-a:hover {
   border-bottom: 1px solid #fff;
+  color: #fff;
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
 }
 
 #linkedin {
